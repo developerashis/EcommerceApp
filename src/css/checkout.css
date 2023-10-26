@@ -1,0 +1,76 @@
+/* Style for the checkout page header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style for the entire checkout container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style for section headings */
+h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Style for form labels and inputs */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Style for the cart items table */
+#cartTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#cartTable th, #cartTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#cartTable th {
+    background-color: #f0f0f0;
+}
+
+/* Style for the "Checkout" button */
+#checkoutButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#checkoutButton:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the product image in the cart items table */
+#cartTable img {
+    max-width: 100px; /* Adjust the maximum width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

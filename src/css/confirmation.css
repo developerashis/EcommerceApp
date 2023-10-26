@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style for the product image in the cart items table */
+#orderedTable img {
+    max-width: 100px; /* Adjust the maximum width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+ /* Style for the "Shop More" button */
+ .shop-more-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.shop-more-button:hover {
+    background-color: #0056b3;
+}
